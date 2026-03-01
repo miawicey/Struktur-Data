@@ -12,10 +12,11 @@
 using namespace std;
 
 // Fungsi untuk menampilkan array
-void tampilArray(int* arr, int n) {
+void tampilArray(int* arr, int b) {
     int* ptr = arr;   
     
-    for (int i = 0; i < n; i++) {
+    // ini pointernya 
+    for (int i = 0; i < b; i++) {
         cout << "Nilai: " << *ptr
              << " | Alamat: " << ptr << endl;
         ptr++;   
@@ -23,9 +24,9 @@ void tampilArray(int* arr, int n) {
 }
 
 // fungsi untuk membalikkan angka
-void reverseArray(int* arr, int n) {
+void reverseArray(int* arr, int b) {
     int* awal = arr;          
-    int* akhir = arr + n - 1; 
+    int* akhir = arr + b - 1; 
     int temp;
 
     while (awal < akhir) {
@@ -41,15 +42,15 @@ void reverseArray(int* arr, int n) {
 int main() {
 
     int angka[7] = {2, 3, 5, 7, 11, 13, 17};
-    int n = 7;
+    int b = 7;
 
     cout << "=== Sebelum Dibalik ===" << endl;
-    tampilArray(angka, n);
+    tampilArray(angka, b);
 
-    reverseArray(angka, n);
+    reverseArray(angka, b);
 
     cout << "\n=== Setelah Dibalik ===" << endl;
-    tampilArray(angka, n);
+    tampilArray(angka, b);
 
     return 0;
 }

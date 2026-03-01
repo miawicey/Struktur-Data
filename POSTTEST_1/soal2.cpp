@@ -21,7 +21,7 @@ int main() {
     const int jumlah = 5; 
     Mahasiswa mhs[jumlah];
 
-    // Input data
+    // Input data disini
     for (int i = 0; i < jumlah; i++) {
         cout << "\nData Mahasiswa ke-" << i + 1 << endl;
         cout << "Nama : ";

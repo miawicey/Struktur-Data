@@ -7,7 +7,9 @@ using namespace std;
 //     if A[i] < min
 //         min ← A[i]
 // return min
-int FindMin(int A[], int n, int &indexMin) {
+
+// fungsi pencarian minimum sekaligus mengembalikan index-nya
+int minimum1(int A[], int n, int &indexMin) {
     int min = A[0];
     indexMin = 0;
 
@@ -24,7 +26,7 @@ int main() {
     int A[8] = {1, 1, 2, 3, 5, 8, 13, 21};
     int indexMin;
 
-    int minimum = FindMin(A, 8, indexMin);
+    int minimum = minimum1(A, 8, indexMin);
 
     cout << "Nilai minimum = " << minimum << endl;
     cout << "Indeks minimum = " << indexMin << endl;

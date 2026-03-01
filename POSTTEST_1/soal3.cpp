@@ -55,5 +55,5 @@ int main() {
     return 0;
 }
 
-//outputnya bakal angka 2, 3, 5, 7,11,13,17 tapi dengan alamat memori yang 
+//outputnya bakal angka 2, 3, 5, 7,11,13,17 sama kebalikannya  tapi dengan alamat memori yang 
 // berbeda beda setiap run program nya

@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//LUVITA KHAIRANA SALWA 2509106041
 // SOAL 4
 // Buat fungsi untuk menukar dua variabel integer.
 // · gunakan pointer dalam fungsi untuk melakukan pertukaran nilai.
@@ -14,7 +15,7 @@ void tukarUmur(int *umurOrang1, int *umurOrang2) {
     *umurOrang1 = *umurOrang2;
     *umurOrang2 = sementara;
 }
-// karena diminta angka maka kita juga bisa bolak balik an
+// karena diminta angka maka kita juga bisa bolak balik an umur
 int main() {
     int umurAhnaf, umurDante;
 

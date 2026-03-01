@@ -10,6 +10,7 @@ using namespace std;
 // • Cari dan tampilkan mahasiswa dengan IPK tertinggi.
  
 // ini struct utk mahasiswa yang isinya nama, nim dan ipk
+
 struct Mahasiswa {
     string nama;
     string nim;
@@ -19,9 +20,8 @@ struct Mahasiswa {
 int main() {
     const int jumlah = 5; 
     Mahasiswa mhs[jumlah];
-// diminta pada soal input data bisa dilakukan sebanyak 5 kali 
 
-    // untuk Input data
+    // Input data
     for (int i = 0; i < jumlah; i++) {
         cout << "\nData Mahasiswa ke-" << i + 1 << endl;
         cout << "Nama : ";
@@ -30,7 +30,8 @@ int main() {
         getline(cin, mhs[i].nim);
         cout << "IPK  : ";
         cin >> mhs[i].ipk;
-        cin.ignore(); // membersihkan newline
+        cin.ignore();
+    }
 
     // Cari IPK tertinggi
     int indexTertinggi = 0;
@@ -45,11 +46,12 @@ int main() {
     cout << "Nama : " << mhs[indexTertinggi].nama << endl;
     cout << "NIM  : " << mhs[indexTertinggi].nim << endl;
     cout << "IPK  : " << mhs[indexTertinggi].ipk << endl;
+
     return 0;
 }
 
 
-// OUTPUTNYA
+// OUTPUTNYA bakalan gini
 // Data Mahasiswa ke-1
 // Nama : Ahnaf
 // NIM  : 089

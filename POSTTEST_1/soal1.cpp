@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-
+// SOAL
 // min ← A[0]
 // for i ← 1 to n-1
 //     if A[i] < min

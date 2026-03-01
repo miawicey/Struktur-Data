@@ -1,5 +1,4 @@
-
-
+// LUVITA KHAIRANA SALWA 2509106041
 // soal 3
 // Buat program C++ yang menyimpan sejumlah data integer dalam array, lalu gunakan pointer untuk mengakses dan memanipulasi elemen-elemen tersebut.
 // Deklarasikan array sesuai ketentuan masing-masing, lalu buat fungsi dengan parameter pointer untuk operasi yang diminta.
@@ -23,10 +22,10 @@ void tampilArray(int* arr, int n) {
     }
 }
 
-// Fungsi untuk membalik array
+// fungsi untuk membalikkan angka
 void reverseArray(int* arr, int n) {
-    int* awal = arr;          // pointer awal
-    int* akhir = arr + n - 1; // pointer akhir
+    int* awal = arr;          
+    int* akhir = arr + n - 1; 
     int temp;
 
     while (awal < akhir) {
@@ -54,3 +53,6 @@ int main() {
 
     return 0;
 }
+
+//outputnya bakal angka 2, 3, 5, 7,11,13,17 tapi dengan alamat memori yang 
+// berbeda beda setiap run program nya

@@ -9,8 +9,7 @@ using namespace std;
 // • Input data 5 mahasiswa (nama, NIM, IPK).
 // • Cari dan tampilkan mahasiswa dengan IPK tertinggi.
  
-// ini struct utk mahasiswa yang isinya nama, nim dan ipk
-
+// ini struct utk mahasiswa yang isinya nama(string), nim(string)dan ipk(float)
 struct Mahasiswa {
     string nama;
     string nim;
